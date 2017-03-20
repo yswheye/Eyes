@@ -39,6 +39,12 @@ class EyesLollipop {
         }
     }
 
+    /**
+     * 视图延伸到状态栏
+     *
+     * @param activity
+     * @param hideStatusBarBackground
+     */
     static void translucentStatusBar(Activity activity, boolean hideStatusBarBackground) {
         Window window = activity.getWindow();
         //添加Flag把状态栏设为可绘制模式

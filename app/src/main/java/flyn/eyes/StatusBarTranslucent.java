@@ -13,11 +13,8 @@ public class StatusBarTranslucent extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        //use requestWindowFeature() and hide actionbar or use AppTheme.NoActionBar style
-//        requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_statusbar_translucent);
-//        getSupportActionBar().hide();
         Eyes.translucentStatusBar(this, false);
 
         findViewById(R.id.toggle).setOnClickListener(new View.OnClickListener() {

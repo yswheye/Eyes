@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "flyn.eyes"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion config.targetSdkVersion
         versionCode 1
         versionName "1.0"
@@ -30,4 +30,6 @@ dependencies {
     compile "com.android.support:design:${lib.supportVersion}"
     compile "com.android.support:cardview-v7:${lib.supportVersion}"
     compile "com.android.support:support-v4:${lib.supportVersion}"
+
+    compile 'com.github.christophesmet:colorpicker:d84191b1cf'
 }

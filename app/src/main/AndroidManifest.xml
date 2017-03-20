@@ -14,7 +14,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StatusBarColorActivity" />
+        <activity android:name=".StatusBarColorActivity"/>
         <activity
             android:name=".StatusBarColorToolBarActivity"
             android:theme="@style/AppTheme.StatusBarColorWithToolbar" />
