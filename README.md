@@ -1,1 +1,3 @@
-博客地址：[Android修改状态栏颜色全方位教程](http://www.jianshu.com/p/932568ed31af)
+March 20, 2017 4:31 PM
+
+![](http://ww1.sinaimg.cn/large/628a632agy1fdte3xqqktj20lc0zkmyl.jpg)
